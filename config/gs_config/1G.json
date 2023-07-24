@@ -1,0 +1,110 @@
+{
+  "0": {
+    "name": "Ground Station 1",
+    "position": [
+      50.28933925329178,
+      -4.7900390625,
+      0
+    ],
+    "bandwidth": 125000000.0
+  },
+  "1": {
+    "name": "Ground Station 2",
+    "position": [
+      49.95121990866204,
+      5.625,
+      491
+    ],
+    "bandwidth": 125000000.0
+  },
+  "2": {
+    "name": "Ground Station 3",
+    "position": [
+      65.07213008560697,
+      -22.148437500000004,
+      0
+    ],
+    "bandwidth": 125000000.0
+  },
+  "3": {
+    "name": "Ground Station 4",
+    "position": [
+      -26.03704188651583,
+      152.57812500000003,
+      62
+    ],
+    "bandwidth": 125000000.0
+  },
+  "4": {
+    "name": "Ground Station 5",
+    "position": [
+      -46.25584681848032,
+      168.04687500000003,
+      36
+    ],
+    "bandwidth": 125000000.0
+  },
+  "5": {
+    "name": "Ground Station 6",
+    "position": [
+      61.93895,
+      -150.46875,
+      68
+    ],
+    "bandwidth": 125000000.0
+  },
+  "6": {
+    "name": "Ground Station 7",
+    "position": [
+      19.57,
+      -155.83,
+      0
+    ],
+    "bandwidth": 125000000.0
+  },
+  "7": {
+    "name": "Ground Station 8",
+    "position": [
+      48.107431,
+      -121.289063,
+      1369
+    ],
+    "bandwidth": 125000000.0
+  },
+  "8": {
+    "name": "Ground Station 9",
+    "position": [
+      32.398516,
+      -107.578125,
+      1349
+    ],
+    "bandwidth": 125000000.0
+  },
+  "9": {
+    "name": "Ground Station 10",
+    "position": [
+      40.713956,
+      -82.96875,
+      307
+    ],
+    "bandwidth": 125000000.0
+  },
+  "10": {
+    "name": "Ground Station 11",
+    "position": [
+      47.635784,
+      -97.734375,
+      381
+    ],
+    "bandwidth": 125000000.0
+  },
+  "11": {
+    "name": "Ground Station 12",
+    "position": [
+      47.517201,
+      -95.625,
+      416
+    ],
+    "bandwidth": 125000000.0
+  }
+}

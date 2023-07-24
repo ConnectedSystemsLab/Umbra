@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name=maxflow    # Job name
+#SBATCH --mail-type=END,FAIL          # Mail events (NONE, BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=<REDACTED>@<REDACTED>     # Where to send mail
+#SBATCH --time=48:00:00             # Time limit hrs:min:sec
+#SBATCH --output=log/maxflow_%j.log   # Standard output and error log
+#SBATCH --partition=csl
+#SBATCH --mem=64G
+#SBATCH --cpus-per-task=1
+#create planet folder in data before run this script!
+pwd
+hostname
+date
+
+module load anaconda/3
+source activate umbra
+cd /home/<REDACTED>/umbra || exit 255
+
+
+export BANDWIDTH="10G"
+export MONTH="Aug"
+export MONTH_NUM="08"
+echo planet_21${MONTH}_5day_mapping.pkl
+python -m experiments.max_flow_iteration --image_mapping_info data/planet_21${MONTH}_5day_mapping.pkl --cache_file data/bw_cache_${MONTH}.pkl --sat_bw_multiplier 0.125 --gs_config data/gs_config_${BANDWIDTH}.json --start_time 2021-${MONTH_NUM}-01T00:00:00 --time_step 60 --result_dir data/${BANDWIDTH}_${MONTH} --log_file log/${BANDWIDTH}_${MONTH}.log
+
+date

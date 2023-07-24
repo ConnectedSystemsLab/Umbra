@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH --job-name=calc_bw    # Job name
+#SBATCH --mail-type=END,FAIL          # Mail events (NONE, BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=<REDACTED>@<REDACTED>     # Where to send mail
+#SBATCH --time=48:00:00             # Time limit hrs:min:sec
+#SBATCH --output=log/calc_bw_%A_%a.log   # Standard output and error log
+#SBATCH --mem=200G
+#SBATCH --cpus-per-task=22
+#SBATCH --array=0-2
+#create planet folder in data before run this script!
+pwd
+hostname
+date
+
+module load anaconda/2022-May/3
+source activate umbra
+cd /home/<REDACTED>/umbra || exit 255
+
+bws=("dgs_hetero1" "dgs_hetero1" "dgs_hetero1")
+months=(Jun Jul Aug)
+monthnums=(6 7 8)
+i=$SLURM_ARRAY_TASK_ID
+
+export BANDWIDTH=${bws[$i]}
+export MONTH=${months[$i]}
+export MONTH_NUM=${monthnums[$i]}
+let END_MONTH=${MONTH_NUM}+1
+echo "BANDWIDTH: ${BANDWIDTH}, MONTH: ${MONTH}, MONTH_NUM: ${MONTH_NUM}"
+python -m experiments.calculate_bandwidth --image_mapping_info data/permanent/planet_21${MONTH}_5day_mapping.pkl --cache_file data/permanent/bw_cache_${MONTH}_dgs.pkl --gs_config data/permanent/gs_config/${BANDWIDTH}.json --start_time 2021-${MONTH_NUM}-01T00:00:00 --time_step 60 --end_time 2021-${END_MONTH}-01T00:00:00 --log_file log/calc_bw_${BANDWIDTH}_${MONTH}.log
+
+date

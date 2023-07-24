@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -k o
+#PBS -l nodes=1:ppn=12,mem=128gb,walltime=24:00:00
+#PBS -N network_crash
+#PBS -j oe
+source activate umbra
+cd /home/<REDACTED>/umbra || exit
+export BANDWIDTH="1G"
+export MONTH="Aug"
+export MONTH_NUM="08"
+echo planet_21${MONTH}_5day_mapping.pkl
+python -m experiments.network_crash --image_mapping_info data/planet_21${MONTH}_5day_mapping.pkl --cache_file data/bw_cache_${MONTH}.pkl --sat_bw_multiplier 0.125 --gs_config data/gs_config_${BANDWIDTH}.json --start_time 2021-${MONTH_NUM}-01T00:00:00 --time_step 60 --result_dir data/${BANDWIDTH}_${MONTH}_crash/umbra --log_file log/${BANDWIDTH}_${MONTH}_crash.log &
+python -m experiments.network_crash_baseline --image_mapping_info data/planet_21${MONTH}_5day_mapping.pkl --cache_file data/bw_cache_${MONTH}.pkl --sat_bw_multiplier 0.125 --gs_config data/gs_config_${BANDWIDTH}.json --start_time 2021-${MONTH_NUM}-01T00:00:00 --time_step 60 --result_dir data/${BANDWIDTH}_${MONTH}_crash/baseline --log_file log/${BANDWIDTH}_${MONTH}_crash_baseline.log &
+python -m experiments.network_crash_oracle --image_mapping_info data/planet_21${MONTH}_5day_mapping.pkl --cache_file data/bw_cache_${MONTH}.pkl --sat_bw_multiplier 0.125 --gs_config data/gs_config_${BANDWIDTH}.json --start_time 2021-${MONTH_NUM}-01T00:00:00 --time_step 60 --result_dir data/${BANDWIDTH}_${MONTH}_crash/oracle --log_file log/${BANDWIDTH}_${MONTH}_crash_oracle.log &
+wait

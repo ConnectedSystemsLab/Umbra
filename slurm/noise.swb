@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --job-name=bin    # Job name
+#SBATCH --mail-type=END,FAIL          # Mail events (NONE, BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=<REDACTED>@<REDACTED>     # Where to send mail
+#SBATCH --time=48:00:00             # Time limit hrs:min:sec
+#SBATCH --output=log/bin_%A_%a.log   # Standard output and error log
+#SBATCH --mem=32G
+#SBATCH --cpus-per-task=1
+#SBATCH --array=0-29
+#create planet folder in data before run this script!
+pwd
+hostname
+date
+
+module load anaconda/3
+source activate umbra
+cd /home/<REDACTED>/umbra || exit 255
+
+python -m scripts.binary_search_relay --noise_levels 0.02 0.04 0.06 0.08
+
+date

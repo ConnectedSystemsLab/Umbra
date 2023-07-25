@@ -68,6 +68,8 @@ python experiments/binary_search.py --image_mapping_info <mapping_file> --gs_con
 
 Make sure that the `start_time` matches the `mapping_file` and `bandwidth_file` matches the `ground_station_config` and `start_time`. Some raw simulation results will be stored in the `result_directory` you specified. Each simulation instance will generate a folder containing multiple files as the results. These files will be used to generate the plos in the paper.
 
+You can find the ground station config files we used in the paper in the `config` folder of this repository. 
+
 To run the baselines, use the files `experiments/basic_heuristic.py`, `experiments/smart_heristic.py` and the same arguments as the `Umbra` command. `binary_search.py` generates results for both `Umbra` and the `greedy` baseline, and `basic_heuristic.py` generates results for the `naive` baseline. `smart_heuristic.py` generates results for the `smart` baseline.
 
 #### Heterogeneous Backhaul

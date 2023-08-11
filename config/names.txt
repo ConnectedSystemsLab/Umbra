@@ -1,0 +1,398 @@
+# Planet Labs 18 SPCS Matching Report v1
+# Available publicly at: http://ephemerides.planet-labs.com/18SPCS_matches_v1.txt
+# Epoch: 2022-01-25T23:17:45Z
+#
+# Planet Labs ranging and GPS data always positively identifies the satellite
+# RMS error < 5 km implies a 'good' match.
+# hist: from historical match in absence of present match
+#
+# Column descriptions:
+# * hw_id - Planet hardware ID of satellite.
+# * planet_name - Planet's internal name of the satellite.
+# * 18spcs_name - The name the 18th SPCS uses for the satellite.
+# * catid - The ID of the satellite in the 18th SPCS catalog.
+# * rms_km - The RMS error of the best TLE matches for this satellite.Up to 3 best matches are represented, each one separated by a '/'.
+# * matches - The IDs of the best TLE matches for this satellite. Up to 3 best matches are represented, each one separated by a '/'.
+# * correct_name - Flag identifying whether any of the TLE matches have the name we would expect for this satellite. Up to 3 best matches are represented, each one separated by a '/'.
+# * catalogued - has the satellite been officially catalogued in the 18th SPCS cagolog?
+# * catid_9digit - Temporary 9-digit catalog ID assigned by 18th SPCS for LEOP.
+# * catid_supplemental - catalog-ID used by Celestrak published Supplemental TLEs during LEOP
+#
+# hw_id    planet_name       18spcs_name    catid    rms_km               matches            correct_name       catalogued    catid_9digit    catid_supplemental
+0505       Dove 2 0505       DOVE 2         39132    hist                 39132              True               True          -               -
+0711       Dove 3 0711       DOVE 3         39429    hist                 39429              True               True          -               -
+0903       Flock 1c-1 0903   FLOCK 1C 1     40027    0.635                40027              True               True          -               -
+0904       Flock 1c-2 0904   FLOCK 1C 2     40029    1.122                40029              True               True          -               -
+0905       Flock 1c-3 0905   FLOCK 1C 3     40041    hist                 40041              True               True          -               -
+0906       Flock 1c-4 0906   FLOCK 1C 4     40031    0.958                40031              True               True          -               -
+0907       Flock 1c-5 0907   FLOCK 1C 5     40038    0.686                40038              True               True          -               -
+0908       Flock 1c-6 0908   FLOCK 1C 6     40036    0.871                40036              True               True          -               -
+0909       Flock 1c-7 0909   FLOCK 1C 7     40026    0.795                40026              True               True          -               -
+090a       Flock 1c-8 090a   FLOCK 1C 8     40040    hist                 40040              True               True          -               -
+090b       Flock 1c-9 090b   FLOCK 1C 9     40035    0.848                40035              True               True          -               -
+090c       Flock 1c-10 090c  FLOCK 1C 10    40023    0.608                40023              True               True          -               -
+090d       Flock 1c-11 090d  FLOCK 1C 11    40033    hist                 40033              True               True          -               -
+0e0d       Flock 2p-1 0e0d   FLOCK 2P 1     41617    hist                 41617              True               True          -               -
+0e0e       Flock 2p-2 0e0e   FLOCK 2P 2     41609    hist                 41609              True               True          -               -
+0e0f       Flock 2p-3 0e0f   FLOCK 2P 3     41618    0.857                41618              True               True          -               -
+0e14       Flock 2p-4 0e14   FLOCK 2P 4     41611    hist                 41611              True               True          -               -
+0e16       Flock 2p-5 0e16   FLOCK 2P 5     41616    hist                 41616              True               True          -               -
+0e19       Flock 2p-6 0e19   FLOCK 2P 6     41606    0.525                41606              True               True          -               -
+0e1f       Flock 2p-7 0e1f   FLOCK 2P 7     41615    hist                 41615              True               True          -               -
+0e20       Flock 2p-8 0e20   FLOCK 2P 8     41613    0.744                41613              True               True          -               -
+0e26       Flock 2p-9 0e26   FLOCK 2P 9     41610    0.788                41610              True               True          -               -
+0e2f       Flock 2p-10 0e2f  FLOCK 2P 10    41612    0.699                41612              True               True          -               -
+0e30       Flock 2p-11 0e30  FLOCK 2P 11    41608    hist                 41608              True               True          -               -
+0e3a       Flock 2p-12 0e3a  FLOCK 2P 12    41614    hist                 41614              True               True          -               -
+0f02       Flock 3m-2 0f02   FLOCK 3M 2     42998    0.645                42998              True               True          -               -
+0f06       Flock 3m-1 0f06   FLOCK 3M 1     42995    1.2                  42995              True               True          -               -
+0f10       Flock 3p-72 0f10  FLOCK 3P 72    42051    0.835                42051              True               True          -               -
+0f11       Flock 3p-71 0f11  FLOCK 3P 71    42024    hist                 42024              True               True          -               -
+0f12       Flock 3p-75 0f12  FLOCK 3P 75    41979    hist                 41979              True               True          -               -
+0f13       Flock 3m-3 0f13   FLOCK 3M 3     42996    0.682                42996              True               True          -               -
+0f15       Flock 3p-70 0f15  FLOCK 3P 70    41980    1.091                41980              True               True          -               -
+0f17       Flock 3p-76 0f17  FLOCK 3P 76    42019    0.755                42019              True               True          -               -
+0f18       Flock 3p-5 0f18   FLOCK 3P 5     41971    hist                 41971              True               True          -               -
+0f1a       Flock 2k-1 0f1a   FLOCK 2K 01    42852    13.861               42852              False              True          -               -
+0f1b       Flock 3p-73 0f1b  FLOCK 3P 73    41981    hist                 41981              True               True          -               -
+0f1d       Flock 3p-85 0f1d  FLOCK 3P 85    41983    0.684                41983              True               True          -               -
+0f1e       Flock 2k-2 0f1e   FLOCK 2K 02    42853    hist                 42853              False              True          -               -
+0f21       Flock 2k-3 0f21   FLOCK 2K 03    42850    5.545                42850              False              True          -               -
+0f22       Flock 3p-74 0f22  FLOCK 3P 74    42048    1.015                42048              True               True          -               -
+0f24       Flock 2k-4 0f24   FLOCK 2K 04    42851    9.29                 42851              False              True          -               -
+0f25       Flock 3p-81 0f25  FLOCK 3P 81    42043    hist                 42043              True               True          -               -
+0f28       Flock 3p-77 0f28  FLOCK 3P 77    42025    hist                 42025              True               True          -               -
+0f29       Flock 2k-5 0f29   FLOCK 2K 05    42864    5.852                42864              False              True          -               -
+0f2a       Flock 2k-6 0f2a   FLOCK 2K 06    42897    8.363                42897              False              True          -               -
+0f2b       Flock 2k-7 0f2b   FLOCK 2K 07    42862    1.362                42862              False              True          -               -
+0f2d       Flock 2k-8 0f2d   FLOCK 2K 08    42863    17.532               42863              False              True          -               -
+0f2e       Flock 2k-9 0f2e   FLOCK 2K 09    42896    3.585                42896              False              True          -               -
+0f31       Flock 3p-87 0f31  FLOCK 3P 87    42044    hist                 42044              True               True          -               -
+0f32       Flock 2k-10 0f32  FLOCK 2K 10    42895    2.132                42895              True               True          -               -
+0f33       Flock 2k-11 0f33  FLOCK 2K 11    42894    9.425                42894              True               True          -               -
+0f34       Flock 3p-86 0f34  FLOCK 3P 86    41985    hist                 41985              True               True          -               -
+0f35       Flock 3p-6 0f35   FLOCK 3P 6     41969    hist                 41969              True               True          -               -
+0f36       Flock 2k-12 0f36  FLOCK 2K 12    42893    1.44                 42893              True               True          -               -
+0f37       Flock 2k-13 0f37  FLOCK 2K 13    42891    23.351               42891              True               True          -               -
+0f38       Flock 3p-88 0f38  FLOCK 3P 88    41982    0.46                 41982              True               True          -               -
+0f3b       Flock 2k-14 0f3b  FLOCK 2K 14    42892    3.839                42892              True               True          -               -
+0f3c       Flock 2k-15 0f3c  FLOCK 2K 15    42890    1.024                42890              True               True          -               -
+0f3d       Flock 2k-16 0f3d  FLOCK 2K 16    42889    10.227               42889              True               True          -               -
+0f3f       Flock 3p-83 0f3f  FLOCK 3P 83    42050    hist                 42050              True               True          -               -
+0f40       Flock 2k-17 0f40  FLOCK 2K 17    42888    14.804               42888              True               True          -               -
+0f41       Flock 3p-82 0f41  FLOCK 3P 82    42046    hist                 42046              True               True          -               -
+0f42       Flock 3p-84 0f42  FLOCK 3P 84    42021    hist                 42021              True               True          -               -
+0f43       Flock 3p-69 0f43  FLOCK 3P 69    42020    hist                 42020              True               True          -               -
+0f44       Flock 2k-18 0f44  FLOCK 2K 18    42887    3.81                 42887              True               True          -               -
+0f46       Flock 2k-19 0f46  FLOCK 2K 19    42886    1.137                42886              True               True          -               -
+0f47       Flock 2k-20 0f47  FLOCK 2K 20    42885    7.743                42885              True               True          -               -
+0f49       Flock 2k-21 0f49  FLOCK 2K 21    42860    1.338/24.592         42860/42865        True/False         True          -               -
+0f4b       Flock 2k-23 0f4b  FLOCK 2K 23    42859    15.943               42859              True               True          -               -
+0f4c       Flock 3m-4 0f4c   FLOCK 3M 4     42997    2.611                42997              True               True          -               -
+0f4d       Flock 2k-25 0f4d  FLOCK 2K 25    42884    7.67                 42884              True               True          -               -
+0f4e       Flock 3p-80 0f4e  FLOCK 3P 80    42026    0.4                  42026              True               True          -               -
+0f4f       Flock 2k-24 0f4f  FLOCK 2K 24    42857    14.914               42857              True               True          -               -
+0f51       Flock 3p-78 0f51  FLOCK 3P 78    42047    hist                 42047              True               True          -               -
+0f52       Flock 3p-79 0f52  FLOCK 3P 79    41984    1.026                41984              True               True          -               -
+0f53       Flock 2k-26 0f53  FLOCK 2K 26    42883    hist                 42883              True               True          -               -
+0f54       Flock 2k-27 0f54  FLOCK 2K 27    42882    20.307               42882              True               True          -               -
+1000       Flock 3p-1 1000   FLOCK 3P 1     41967    0.487/3.888          41967/41957        True/False         True          -               -
+1001       Flock 3p-2 1001   FLOCK 3P 2     41966    0.827                41966              True               True          -               -
+1002       Flock 3p-3 1002   FLOCK 3P 3     41968    1.036                41968              True               True          -               -
+1003       Flock 3p-4 1003   FLOCK 3P 4     41965    0.772                41965              True               True          -               -
+1004       Flock 3p-68 1004  FLOCK 3P 68    42003    hist                 42003              True               True          -               -
+1005       Flock 3p-54 1005  FLOCK 3P 54    42014    0.817                42014              True               True          -               -
+1006       Flock 3p-51 1006  FLOCK 3P 51    41952    1.011                41952              True               True          -               -
+1007       Flock 3p-53 1007  FLOCK 3P 53    42013    0.962                42013              True               True          -               -
+1008       Flock 3p-55 1008  FLOCK 3P 55    42041    0.567                42041              True               True          -               -
+1009       Flock 3p-58 1009  FLOCK 3P 58    41977    0.605                41977              True               True          -               -
+100a       Flock 3p-64 100a  FLOCK 3P 64    42034    1.193                42034              True               True          -               -
+100b       Flock 3p-7 100b   FLOCK 3P 7     41970    hist                 41970              True               True          -               -
+100c       Flock 3p-8 100c   FLOCK 3P 8     41951    0.789                41951              True               True          -               -
+100d       Flock 2k-45 100d  FLOCK 2K 45    42856    5.368                42856              True               True          -               -
+100e       Flock 3p-16 100e  FLOCK 3P 16    42011    2.726/47.299         42011/43771        True/False         True          -               -
+100f       Flock 3p-56 100f  FLOCK 3P 56    42042    hist                 42042              True               True          -               -
+1010       Flock 3p-12 1010  FLOCK 3P 12    41972    1.054                41972              True               True          -               -
+1011       Flock 3p-46 1011  FLOCK 3P 46    42031    0.832                42031              True               True          -               -
+1012       Flock 3p-61 1012  FLOCK 3P 61    42009    0.469                42009              True               True          -               -
+1013       Flock 3p-66 1013  FLOCK 3P 66    42027    0.769                42027              True               True          -               -
+1014       Flock 3p-57 1014  FLOCK 3P 57    41978    1.115                41978              True               True          -               -
+1015       Flock 3p-63 1015  FLOCK 3P 63    42035    0.971                42035              True               True          -               -
+1016       Flock 3p-13 1016  FLOCK 3P 13    42040    hist                 42040              True               True          -               -
+1017       Flock 3p-67 1017  FLOCK 3P 67    42002    hist                 42002              True               True          -               -
+1018       Flock 3p-14 1018  FLOCK 3P 14    42012    hist                 42012              True               True          -               -
+1019       Flock 3p-44 1019  FLOCK 3P 44    42033    hist                 42033              True               True          -               -
+101a       Flock 3p-45 101a  FLOCK 3P 45    42005    hist                 42005              True               True          -               -
+101b       Flock 3p-60 101b  FLOCK 3P 60    41976    hist                 41976              True               True          -               -
+101c       Flock 2k-48 101c  FLOCK 2K 48    42855    hist                 42855              True               True          -               -
+101d       Flock 3p-15 101d  FLOCK 3P 15    42039    hist                 42039              True               True          -               -
+101e       Flock 3p-42 101e  FLOCK 3P 42    42008    hist                 42008              True               True          -               -
+101f       Flock 3p-11 101f  FLOCK 3P 11    41975    1.111                41975              True               True          -               -
+1020       Flock 2k-44 1020  FLOCK 2K 44    42873    3.219                42873              True               True          -               -
+1021       Flock 3p-9 1021   FLOCK 3P 9     41973    hist                 41973              True               True          -               -
+1022       Flock 3p-10 1022  FLOCK 3P 10    41974    0.934                41974              True               True          -               -
+1023       Flock 3p-17 1023  FLOCK 3P 17    41962    hist                 41962              True               True          -               -
+1024       Flock 3p-19 1024  FLOCK 3P 19    41955    hist                 41955              True               True          -               -
+1025       Flock 3p-23 1025  FLOCK 3P 23    42018    1.074                42018              True               True          -               -
+1026       Flock 3p-24 1026  FLOCK 3P 24    41956    0.661                41956              True               True          -               -
+1027       Flock 3p-47 1027  FLOCK 3P 47    42032    hist                 42032              True               True          -               -
+1028       Flock 3p-22 1028  FLOCK 3P 22    41958    0.999                41958              True               True          -               -
+1029       Flock 3p-20 1029  FLOCK 3P 20    41950    hist                 41950              True               True          -               -
+102a       Flock 3p-21 102a  FLOCK 3P 21    41959    hist                 41959              True               True          -               -
+102b       Flock 3p-18 102b  FLOCK 3P 18    41957    hist                 41957              True               True          -               -
+102c       Flock 3p-28 102c  FLOCK 3P 28    41960    0.962                41960              True               True          -               -
+102d       Flock 3p-26 102d  FLOCK 3P 26    41961    hist                 41961              True               True          -               -
+102e       Flock 3p-30 102e  FLOCK 3P 30    41987    hist                 41987              True               True          -               -
+102f       Flock 3p-25 102f  FLOCK 3P 25    41964    hist                 41964              True               True          -               -
+1030       Flock 3p-27 1030  FLOCK 3P 27    41963    hist                 41963              True               True          -               -
+1031       Flock 3p-41 1031  FLOCK 3P 41    42004    0.7                  42004              True               True          -               -
+1032       Flock 3p-31 1032  FLOCK 3P 31    42049    0.745                42049              True               True          -               -
+1033       Flock 3p-29 1033  FLOCK 3P 29    42045    1.082                42045              True               True          -               -
+1034       Flock 3p-50 1034  FLOCK 3P 50    42029    1.013                42029              True               True          -               -
+1035       Flock 3p-32 1035  FLOCK 3P 32    42023    0.84                 42023              True               True          -               -
+1036       Flock 3p-38 1036  FLOCK 3P 38    42037    0.838                42037              True               True          -               -
+1037       Flock 3p-37 1037  FLOCK 3P 37    41953    hist                 41953              True               True          -               -
+1038       Flock 3p-49 1038  FLOCK 3P 49    42001    0.68                 42001              True               True          -               -
+1039       Flock 3p-40 1039  FLOCK 3P 40    42010    0.72/23.628          42010/41968        True/False         True          -               -
+103a       Flock 3p-36 103a  FLOCK 3P 36    41986    hist                 41986              True               True          -               -
+103b       Flock 3p-34 103b  FLOCK 3P 34    41988    0.722                41988              True               True          -               -
+103c       Flock 3p-33 103c  FLOCK 3P 33    41990    1.008                41990              True               True          -               -
+103d       Flock 3p-35 103d  FLOCK 3P 35    41989    hist                 41989              True               True          -               -
+103e       Flock 3p-39 103e  FLOCK 3P 39    42038    hist                 42038              True               True          -               -
+103f       Flock 2k-46 103f  FLOCK 2K 46    42858    7.774                42858              True               True          -               -
+1040       Flock 3p-65 1040  FLOCK 3P 65    42028    0.772                42028              True               True          -               -
+1041       Flock 3p-43 1041  FLOCK 3P 43    42007    0.872                42007              True               True          -               -
+1042       Flock 3p-48 1042  FLOCK 3P 48    42006    1.447                42006              True               True          -               -
+1043       Flock 2k-47 1043  FLOCK 2K 47    42854    8.659                42854              True               True          -               -
+1044       Flock 3p-52 1044  FLOCK 3P 52    42030    hist                 42030              True               True          -               -
+1045       Flock 3p-59 1045  FLOCK 3P 59    42022    hist                 42022              True               True          -               -
+1046       Flock 3p-62 1046  FLOCK 3P 62    42036    hist                 42036              True               True          -               -
+1047       Flock 2k-28 1047  FLOCK 2K 28    42880    2.44                 42880              True               True          -               -
+1048       Flock 2k-29 1048  FLOCK 2K 29    42871    1.428                42871              True               True          -               -
+1049       Flock 2k-30 1049  FLOCK 2K 30    42872    3.529                42872              True               True          -               -
+104a       Flock 2k-31 104a  FLOCK 2K 31    42869    hist                 42869              True               True          -               -
+104b       Flock 2k-32 104b  FLOCK 2K 32    42870    1.258                42870              True               True          -               -
+104d       Flock 2k-34 104d  FLOCK 2K 34    42878    8.214                42878              True               True          -               -
+104e       Flock 2k-35 104e  FLOCK 2K 35    42877    3.295                42877              True               True          -               -
+104f       Flock 2k-36 104f  FLOCK 2K 36    42876    17.448               42876              True               True          -               -
+1050       Flock 2k-37 1050  FLOCK 2K 37    42867    1.068                42867              True               True          -               -
+1051       Flock 2k-38 1051  FLOCK 2K 38    42868    13.788               42868              True               True          -               -
+1052       Flock 2k-39 1052  FLOCK 2K 39    42866    1.275                42866              True               True          -               -
+1053       Flock 2k-40 1053  FLOCK 2K 40    42865    4.221/25.131         42865/42860        True/False         True          -               -
+1054       Flock 2k-41 1054  FLOCK 2K 41    42875    3.516                42875              True               True          -               -
+1056       Flock 2k-43 1056  FLOCK 2K 43    42874    1.456                42874              True               True          -               -
+1057       Flock 3r-6 1057   FLOCK 3R 6     43741    0.866                43741              True               True          -               -
+1058       Flock 3r-7 1058   FLOCK 3R 7     43742    0.772                43742              True               True          -               -
+1059       Flock 3r-10 1059  FLOCK 3R 10    43740    hist                 43740              True               True          -               -
+105a       Flock 3r-1 105a   FLOCK 3R 1     43747    2.386                43747              True               True          -               -
+105b       Flock 3r-2 105b   FLOCK 3R 2     43748    0.686                43748              True               True          -               -
+105c       Flock 3s-1 105c   FLOCK 3S 1     43769    0.799                43769              True               True          -               -
+105d       Flock 3r-3 105d   FLOCK 3R 3     43734    0.761                43734              True               True          -               -
+105e       Flock 3r-4 105e   FLOCK 3R 4     43733    1.373                43733              True               True          -               -
+105f       Flock 3r-5 105f   FLOCK 3R 5     43726    hist                 43726              True               True          -               -
+1060       Flock 3r-8 1060   FLOCK 3R 8     43727    3.661                43727              True               True          -               -
+1061       Flock 3r-9 1061   FLOCK 3R 9     43723    0.626                43723              True               True          -               -
+1062       Flock 3k-1 1062   FLOCK 3K 1     43894    1.139                43894              True               True          -               -
+1063       Flock 3k-4 1063   FLOCK 3K 4     43893    0.729                43893              True               True          -               -
+1064       Flock 3r-11 1064  FLOCK 3R 11    43725    0.79                 43725              True               True          -               -
+1065       Flock 3k-9 1065   FLOCK 3K 9     43906    1.168                43906              True               True          -               -
+1066       Flock 3r-12 1066  FLOCK 3R 12    43724    0.781                43724              True               True          -               -
+1067       Flock 3k-5 1067   FLOCK 3K 5     43899    2.542                43899              True               True          -               -
+1068       Flock 3k-3 1068   FLOCK 3K 3     43892    0.703                43892              True               True          -               -
+1069       Flock 3k-6 1069   FLOCK 3K 6     43896    0.892                43896              True               True          -               -
+106a       Flock 3k-7 106a   FLOCK 3K 7     43902    1.864                43902              True               True          -               -
+106b       Flock 3k-8 106b   FLOCK 3K 8     43901    0.902                43901              True               True          -               -
+106c       Flock 3k-2 106c   FLOCK 3K 2     43895    0.796                43895              True               True          -               -
+106d       Flock 3k-10 106d  FLOCK 3K 10    43905    0.797                43905              True               True          -               -
+106e       Flock 3k-11 106e  FLOCK 3K 11    43904    4.446                43904              True               True          -               -
+106f       Flock 3k-12 106f  FLOCK 3K 12    43903    hist                 43903              True               True          -               -
+1100       Flock 3pp-1 1100  FLOCK 3PP 1    43121    0.402                43121              True               True          -               -
+1102       Flock 3pp-2 1102  FLOCK 3PP 2    43120    0.692                43120              True               True          -               -
+1105       Flock 3pp-3 1105  FLOCK 3PP 3    43119    0.812                43119              True               True          -               -
+1107       Flock 3pp-4 1107  FLOCK 3PP 4    43122    0.644                43122              True               True          -               -
+2107       Flock 3r-15 2107  FLOCK 3R 15    43736    2.224                43736              True               True          -               -
+210b       Flock 3r-13 210b  FLOCK 3R 13    43750    3.499                43750              True               True          -               -
+210c       Flock 3r-14 210c  FLOCK 3R 14    43749    1.07                 43749              True               True          -               -
+210d       Flock 3s-3 210d   FLOCK 3S 3     43788    0.583                43788              True               True          -               -
+2151       Flock 3s-2 2151   FLOCK 3S 2     43821    0.618                43821              True               True          -               -
+2152       Flock 3r-16 2152  FLOCK 3R 16    43735    1.209                43735              True               True          -               -
+2201       Flock 4a-2 2201   FLOCK 4A 2     44080    0.455                44080              True               True          -               -
+2205       Flock 4a-10 2205  FLOCK 4A 10    44097    0.876                44097              True               True          -               -
+2206       Flock 4a-3 2206   FLOCK 4A 3     44081    1.08                 44081              True               True          -               -
+2207       Flock 4a-15 2207  FLOCK 4A 15    44100    0.597                44100              True               True          -               -
+2209       Flock 4a-12 2209  FLOCK 4A 12    44108    0.798                44108              True               True          -               -
+220b       Flock 4a-6 220b   FLOCK 4A 6     44094    0.665                44094              True               True          -               -
+220c       Flock 4a-13 220c  FLOCK 4A 13    44102    1.07                 44102              True               True          -               -
+2212       Flock 4a-17 2212  FLOCK 4A 17    44088    0.513                44088              True               True          -               -
+2213       Flock 4a-8 2213   FLOCK 4A 8     44092    hist                 44092              True               True          -               -
+2215       Flock 4a-18 2215  FLOCK 4A 18    44089    0.911/48.026         44089/44099        True/False         True          -               -
+2218       Flock 4a-1 2218   FLOCK 4A 1     44079    0.927                44079              True               True          -               -
+2220       Flock 4a-4 2220   FLOCK 4A 4     44082    0.782                44082              True               True          -               -
+2223       Flock 4a-11 2223  FLOCK 4A 11    44096    0.682                44096              True               True          -               -
+2224       Flock 4a-9 2224   FLOCK 4A 9     44098    0.733                44098              True               True          -               -
+2227       Flock 4a-5 2227   FLOCK 4A 5     44095    1.122                44095              True               True          -               -
+222b       Flock 4a-16 222b  FLOCK 4A 16    44099    0.69                 44099              True               True          -               -
+222c       Flock 4a-14 222c  FLOCK 4A 14    44101    0.835                44101              True               True          -               -
+222d       Flock 4a-7 222d   FLOCK 4A 7     44093    0.849                44093              True               True          -               -
+222f       Flock 4p-7 222f   FLOCK 4P 7     44816    0.459                44816              True               True          -               -
+2231       Flock 4p-11 2231  FLOCK 4P 11    44809    1.021                44809              True               True          -               -
+2232       Flock 4a-20 2232  FLOCK 4A 20    44091    0.856                44091              True               True          -               -
+2233       Flock 4p-10 2233  FLOCK 4P 10    44808    0.472                44808              True               True          -               -
+2235       Flock 4a-19 2235  FLOCK 4A 19    44090    0.724                44090              True               True          -               -
+2251       Flock 4ep-3 2251  FLOCK 4EP 3    46819    0.829                46819              True               True          -               -
+2254       Flock 4v-10 2254  FLOCK 4V 10    46296    0.734                46296              True               True          -               -
+2256       Flock 4v-2 2256   FLOCK 4V 2     46321    1.143                46321              True               True          -               -
+2257       Flock 4p-9 2257   FLOCK 4P 9     44807    1.158                44807              True               True          -               -
+2259       Flock 4p-5 2259   FLOCK 4P 5     44818    0.897                44818              True               True          -               -
+225a       Flock 4ep-1 225a  FLOCK 4EP 1    46813    0.478                46813              True               True          -               -
+225b       Flock 4v-6 225b   FLOCK 4V 6     46289    0.482                46289              True               True          -               -
+2262       Flock 4ep-7 2262  FLOCK 4EP 7    46814    0.845                46814              True               True          -               -
+2263       Flock 4p-6 2263   FLOCK 4P 6     44817    1.46                 44817              True               True          -               -
+2264       Flock 4ep-8 2264  FLOCK 4EP 8    46816    0.882                46816              True               True          -               -
+2271       Flock 4p-12 2271  FLOCK 4P 12    44810    1.032                44810              True               True          -               -
+2274       Flock 4v-4 2274   FLOCK 4V 4     46314    0.539                46314              True               True          -               -
+2275       Flock 4p-8 2275   FLOCK 4P 8     44815    1.206                44815              True               True          -               -
+2276       Flock 4ep-5 2276  FLOCK 4EP 5    46817    1.084                46817              True               True          -               -
+2277       Flock 4p-1 2277   FLOCK 4P 1     44814    0.851                44814              True               True          -               -
+2278       Flock 4p-2 2278   FLOCK 4P 2     44813    0.886                44813              True               True          -               -
+2279       Flock 4ep-2 2279  FLOCK 4EP 2    46820    0.991                46820              True               True          -               -
+227a       Flock 4v-14 227a  FLOCK 4V 14    46286    0.483                46286              True               True          -               -
+227b       Flock 4v-7 227b   FLOCK 4V 7     46291    0.747                46291              True               True          -               -
+227c       Flock 4v-1 227c   FLOCK 4V 1     46313    0.585                46313              True               True          -               -
+227e       Flock 4ep-4 227e  FLOCK 4EP 4    46821    1.621                46821              True               True          -               -
+2280       Flock 4ep-6 2280  FLOCK 4EP 6    46822    0.813                46822              True               True          -               -
+2304       Flock 4p-3 2304   FLOCK 4P 3     44812    0.558                44812              True               True          -               -
+2307       Flock 4v-12 2307  FLOCK 4V 12    46283    1.037                46283              True               True          -               -
+2310       Flock 4p-4 2310   FLOCK 4P 4     44811    1.42                 44811              True               True          -               -
+2401       Flock 4v-23 2401  FLOCK 4V 23    46737    0.864                46737              True               True          -               -
+2402       Flock 4v-15 2402  FLOCK 4V 15    46528    0.772                46528              True               True          -               -
+2403       Flock 4v-16 2403  FLOCK 4V 16    46527    0.556                46527              True               True          -               -
+2405       Flock 4v-24 2405  FLOCK 4V 24    46738    0.835                46738              True               True          -               -
+2406       Flock 4v-20 2406  FLOCK 4V 20    46612    0.855                46612              True               True          -               -
+2407       Flock 4v-26 2407  FLOCK 4V 26    46825    0.91                 46825              True               True          -               -
+2408       Flock 4v-21 2408  FLOCK 4V 21    46596    7.148                46596              True               True          -               -
+240a       Flock 4v-22 240a  FLOCK 4V 22    46735    1.496                46735              True               True          -               -
+240c       Flock 4v-25 240c  FLOCK 4V 25    46812    0.831                46812              True               True          -               -
+240f       Flock 4v-5 240f   FLOCK 4V 5     46290    0.959                46290              True               True          -               -
+2412       Flock 4v-3 2412   FLOCK 4V 3     46322    0.893                46322              True               True          -               -
+2413       Flock 4v-18 2413  FLOCK 4V 18    46597    0.751                46597              True               True          -               -
+2414       Flock 4v-19 2414  FLOCK 4V 19    46609    0.868                46609              True               True          -               -
+2416       Flock 4v-8 2416   FLOCK 4V 8     46288    0.722                46288              True               True          -               -
+2419       Flock 4v-9 2419   FLOCK 4V 9     46282    1.745                46282              True               True          -               -
+241a       Flock 4s-12 241a  FLOCK 4S 12    47471    0.747                47471              True               True          -               -
+241b       Flock 4s-31 241b  FLOCK 4S 31    47475    0.83/43.732          47475/47540        True/False         True          -               -
+241c       Flock 4v-13 241c  FLOCK 4V 13    46297    0.49                 46297              True               True          -               -
+241d       Flock 4s-36 241d  FLOCK 4S 36    47530    1.199                47530              True               True          -               -
+241e       Flock 4s-22 241e  FLOCK 4S 22    47452    0.857                47452              True               True          -               -
+241f       Flock 4s-14 241f  FLOCK 4S 14    47528    0.724                47528              True               True          -               -
+2420       Flock 4s-33 2420  FLOCK 4S 33    47469    0.725                47469              True               True          -               -
+2421       Flock 4s-18 2421  FLOCK 4S 18    47496    0.617                47496              True               True          -               -
+2423       Flock 4s-5 2423   FLOCK 4S 5     47515    0.629                47515              True               True          -               -
+2424       Flock 4v-11 2424  FLOCK 4V 11    46285    1.596                46285              True               True          -               -
+2426       Flock 4v-17 2426  FLOCK 4V 17    46529    0.535                46529              True               True          -               -
+2427       Flock 4s-41 2427  FLOCK 4S 41    47698    1.484                47698              True               True          -               -
+2428       Flock 4s-2 2428   FLOCK 4S 2     47498    0.882/43.557         47498/47446        True/False         True          -               -
+2429       Flock 4s-37 2429  FLOCK 4S 37    47522    1.464                47522              True               True          -               -
+242a       Flock 4s-35 242a  FLOCK 4S 35    47473    1.077/45.607         47473/47543        True/False         True          -               -
+242b       Flock 4s-4 242b   FLOCK 4S 4     47491    1.153                47491              True               True          -               -
+242d       Flock 4s-19 242d  FLOCK 4S 19    47500    0.757                47500              True               True          -               -
+242f       Flock 4s-15 242f  FLOCK 4S 15    47521    0.834                47521              True               True          -               -
+2430       Flock 4s-42 2430  FLOCK 4S 42    47612    1.2/36.788           47612/47445        True/False         True          -               -
+2431       Flock 4s-24 2431  FLOCK 4S 24    47539    0.295                47539              True               True          -               -
+2432       Flock 4s-17 2432  FLOCK 4S 17    47492    0.679                47492              True               True          -               -
+2433       Flock 4s-3 2433   FLOCK 4S 3     47494    1.669                47494              True               True          -               -
+2434       Flock 4s-16 2434  FLOCK 4S 16    47516    0.664                47516              True               True          -               -
+2435       Flock 4s-43 2435  FLOCK 4S 43    47687    0.77                 47687              True               True          -               -
+2436       Flock 4s-1 2436   FLOCK 4S 1     47543    1.995/37.151         47543/47473        True/False         True          -               -
+2438       Flock 4x-8 2438   FLOCK 4X 8     50992    7.073/7.563/26.067   50992/50996/50997  True/False/False   True          -               -
+2439       Flock 4s-20 2439  FLOCK 4S 20    47540    0.598/43.369         47540/47475        True/False         True          -               -
+2440       Flock 4s-44 2440  FLOCK 4S 44    47686    0.799                47686              True               True          -               -
+2441       Flock 4ep-9 2441  FLOCK 4EP 9    46815    1.028                46815              True               True          -               -
+2442       Flock 4s-45 2442  FLOCK 4S 45    47688    1.567                47688              True               True          -               -
+2444       Flock 4s-46 2444  FLOCK 4S 46    47684    0.854                47684              True               True          -               -
+2445       Flock 4s-11 2445  FLOCK 4S 11    47462    0.833                47462              True               True          -               -
+2446       Flock 4x-36 2446  FLOCK 4X 36    51039    1.048/13.06/17.63    51039/51038/51064  True/False/False   True          -               -
+2447       Flock 4s-9 2447   FLOCK 4S 9     47478    1.113                47478              True               True          -               -
+2448       Flock 4s-25 2448  FLOCK 4S 25    47542    0.741                47542              True               True          -               -
+2449       Flock 4s-10 2449  FLOCK 4S 10    47523    0.721                47523              True               True          -               -
+2450       Flock 4s-8 2450   FLOCK 4S 8     47474    1.075                47474              True               True          -               -
+2451       Flock 4s-7 2451   FLOCK 4S 7     47527    1.164                47527              True               True          -               -
+2453       Flock 4s-13 2453  FLOCK 4S 13    47472    0.525                47472              True               True          -               -
+2455       Flock 4s-6 2455   FLOCK 4S 6     47518    0.527                47518              True               True          -               -
+2456       Flock 4s-47 2456  FLOCK 4S 47    47685    1.436                47685              True               True          -               -
+2457       Flock 4s-27 2457  FLOCK 4S 27    47495    0.642                47495              True               True          -               -
+2458       Flock 4s-39 2458  FLOCK 4S 39    47490    0.744                47490              True               True          -               -
+2459       Flock 4s-30 2459  FLOCK 4S 30    47544    0.875                47544              True               True          -               -
+245a       Flock 4s-32 245a  FLOCK 4S 32    47479    0.635                47479              True               True          -               -
+245c       Flock 4s-21 245c  FLOCK 4S 21    47456    0.913/15.432         47456/47485        True/False         True          -               -
+245d       Flock 4s-23 245d  FLOCK 4S 23    47545    0.457                47545              True               True          -               -
+245e       Flock 4s-38 245e  FLOCK 4S 38    47512    hist                 47512              True               True          -               -
+245f       Flock 4s-26 245f  FLOCK 4S 26    47497    1.015                47497              True               True          -               -
+2460       Flock 4s-28 2460  FLOCK 4S 28    47514    1.265                47514              True               True          -               -
+2461       Flock 4x-35 2461  FLOCK 4X 35    51048    0.85/11.222/29.14    51048/51047/51046  True/False/False   True          -               -
+2462       Flock 4s-40 2462  FLOCK 4S 40    47499    1.599                47499              True               True          -               -
+2463       Flock 4s-29 2463  FLOCK 4S 29    47520    6.951                47520              True               True          -               -
+2464       Flock 4s-34 2464  FLOCK 4S 34    47477    1.179                47477              True               True          -               -
+2465       Flock 4s-48 2465  FLOCK 4S 48    47617    0.58                 47617              True               True          -               -
+2470       Flock 4x-6 2470   FLOCK 4X 6     51043    1.575/5.699/9.812    51043/51044/51041  True/False/False   True          -               -
+2473       Flock 4x-1 2473   FLOCK 4X 1     51017    0.596/6.59/23.921    51017/51018/51016  True/False/False   True          -               -
+2474       Flock 4x-27 2474  FLOCK 4X 27    51012    1.73/21.094/29.335   51012/51011/51016  True/False/False   True          -               -
+2475       Flock 4x-39 2475  FLOCK 4X 39    51029    0.557/49.567         51029/51028        True/False         True          -               -
+2477       Flock 4x-2 2477   FLOCK 4X 2     50996    0.334/1.951/21.611   50996/50992/50997  True/False/False   True          -               -
+2478       Flock 4x-7 2478   FLOCK 4X 7     51065    0.654/30.923/31.512  51065/51066/51047  True/False/False   True          -               -
+2479       Flock 4x-22 2479  FLOCK 4X 22    51003    0.751/9.837/16.007   51003/51002/51004  True/False/False   True          -               -
+247a       Flock 4x-17 247a  FLOCK 4X 17    51035    0.721/5/38.48        51035/51036/51052  True/False/False   True          -               -
+247b       Flock 4x-44 247b  FLOCK 4X 44    50994    0.601/9.599/36.782   50994/51070/51037  True/False/False   True          -               -
+247c       Flock 4x-5 247c   FLOCK 4X 5     51004    0.695/20.681/25.555  51004/51003/51005  True/False/False   True          -               -
+247d       Flock 4x-34 247d  FLOCK 4X 34    51042    0.606/2.139/15.34    51042/51041/51043  True/False/False   True          -               -
+247e       Flock 4x-19 247e  FLOCK 4X 19    51046    0.57/29.08/34.458    51046/51048/51045  True/False/False   True          -               -
+247f       Flock 4x-29 247f  FLOCK 4X 29    51011    0.432/16.43/30.132   51011/51010/51012  True/False/False   True          -               -
+2480       Flock 4x-42 2480  FLOCK 4X 42    51018    0.587/8.613/19.476   51018/51017/51016  True/False/False   True          -               -
+2481       Flock 4x-37 2481  OBJECT AB      -        0.975/4.752/13.66    51009/51034/51007  False/False/False  False         799600335       70343
+2482       Flock 4x-3 2482   OBJECT Y       -        0.657/16.911/39.237  51006/51007/51009  False/False/False  False         799600336       70358
+2483       Flock 4x-4 2483   FLOCK 4X 4     51064    0.81/31.573/32.147   51064/51066/51039  True/False/False   True          -               -
+2484       Flock 4x-16 2484  FLOCK 4X 16    51020    0.747/7.011/14.326   51020/51023/51024  True/False/False   True          -               -
+2485       Flock 4x-21 2485  OBJECT BJ      -        1.041/14.011/20.677  51040/51044/51043  False/False/False  False         799600339       70373
+2486       Flock 4x-43 2486  FLOCK 4X 43    51027    0.547/18.557/30.87   51027/51025/51026  True/False/False   True          -               -
+2488       Flock 4x-41 2488  FLOCK 4X 41    51005    0.892/12.025/17.211  51005/51004/51006  True/False/False   True          -               -
+2489       Flock 4x-14 2489  FLOCK 4X 14    51066    0.93/18.409/33.847   51066/51064/51065  True/False/False   True          -               -
+248b       Flock 4x-24 248b  FLOCK 4X 24    51056    0.499/3.187/29.911   51056/51055/51052  True/False/False   True          -               -
+248c       Flock 4x-9 248c   FLOCK 4X 9     51047    0.476/28.071/31.846  51047/51048/51065  True/False/False   True          -               -
+248e       Flock 4x-40 248e  FLOCK 4X 40    51052    0.511/34.255/37.68   51052/51055/51056  True/False/False   True          -               -
+248f       Flock 4x-38 248f  FLOCK 4X 38    51023    0.624/6.364/8.624    51023/51020/51024  True/False/False   True          -               -
+2490       Flock 4x-26 2490  FLOCK 4X 26    51026    0.923/28.22          51026/51027        True/False         True          -               -
+2492       Flock 4x-15 2492  FLOCK 4X 15    51010    0.466/15.782/45.13   51010/51011/51012  True/False/False   True          -               -
+2495       Flock 4x-20 2495  FLOCK 4X 20    50997    0.735/21.469/23.614  50997/50996/50992  True/False/False   True          -               -
+2496       Flock 4x-33 2496  FLOCK 4X 33    51055    1.194/2.031/31.783   51055/51056/51052  True/False/False   True          -               -
+2498       Flock 4x-12 2498  FLOCK 4X 12    51015    0.963/4.388/16.629   51015/51016/51018  True/False/False   True          -               -
+2499       Flock 4x-31 2499  FLOCK 4X 31    51041    0.595/1.845/14.961   51041/51042/51043  True/False/False   True          -               -
+249a       Flock 4x-10 249a  OBJECT BF      -        0.696/23.17/34.093   51037/51070/50994  False/False/False  False         799600353       70329
+249b       Flock 4x-11 249b  FLOCK 4X 11    51049    0.885                51049              True               True          -               -
+249c       Flock 4x-13 249c  FLOCK 4X 13    51028    0.814/16.958/27.483  51028/51025/51019  True/False/False   True          -               -
+249d       Flock 4x-18 249d  FLOCK 4X 18    51007    1.295/10.971/15.921  51007/51006/51009  True/False/False   True          -               -
+249e       Flock 4x-32 249e  FLOCK 4X 32    51024    0.86/6.635/13.57     51024/51023/51020  True/False/False   True          -               -
+24a2       Flock 4x-23 24a2  FLOCK 4X 23    51034    1.271/7.139/27.097   51034/51009/51007  True/False/False   True          -               -
+24a3       Flock 4x-25 24a3  FLOCK 4X 25    51016    0.444/4.197/17.062   51016/51015/51018  True/False/False   True          -               -
+24a4       Flock 4x-30 24a4  FLOCK 4X 30    51000    0.408/43.767/47.449  51000/50998/50999  True/False/False   True          -               -
+24a5       Flock 4x-28 24a5  FLOCK 4X 28    51045    0.725/43.17          51045/51046        True/False         True          -               -
+s1         SkySat-A          SKYSAT 1       39418    0.402                39418              False              True          -               -
+s103       SkySat-C3         SKYSAT C3      41774    0.465                41774              True               True          -               -
+s104       SkySat-C4         SKYSAT C4      41771    0.471                41771              True               True          -               -
+s105       SkySat-C5         SKYSAT C5      41772    0.403                41772              True               True          -               -
+s106       SkySat-C6         SKYSAT C6      42992    0.468                42992              True               True          -               -
+s107       SkySat-C7         SKYSAT C7      42991    0.427                42991              True               True          -               -
+s108       SkySat-C8         SKYSAT C8      42990    0.439                42990              True               True          -               -
+s109       SkySat-C9         SKYSAT C9      42989    0.395                42989              True               True          -               -
+s110       SkySat-C10        SKYSAT C10     42988    0.388                42988              True               True          -               -
+s111       SkySat-C11        SKYSAT C11     42987    0.436                42987              True               True          -               -
+s112       SkySat-C12        SKYSAT C12     43797    0.403                43797              True               True          -               -
+s113       SkySat-C13        SKYSAT C13     43802    0.396                43802              True               True          -               -
+s114       SkySat-C14        SKYSAT C14     45788    0.64                 45788              True               True          -               -
+s115       SkySat-C15        SKYSAT C15     45790    0.576                45790              True               True          -               -
+s116       SkySat-C16        SKYSAT C16     45789    1.122                45789              True               True          -               -
+s117       SkySat-C17        SKYSAT C17     46179    1.487                46179              True               True          -               -
+s118       SkySat-C18        SKYSAT C18     46180    10.047               46180              True               True          -               -
+s119       SkySat-C19        SKYSAT C19     46235    0.979                46235              True               True          -               -
+s2         SkySat-B          SKYSAT 2       40072    0.399                40072              False              True          -               -
+s3         SkySat-C1         SKYSAT C1      41601    0.457                41601              True               True          -               -
+s4         SkySat-C2         SKYSAT C2      41773    0.442                41773              True               True          -               -
